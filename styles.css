@@ -1,0 +1,83 @@
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #a4a1a1;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Navigation bar styling */
+nav {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Main content area styling */
+main {
+  padding: 20px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 30%;
+}
+
+th, td {
+  border: 1px solid #0d0d0d;
+  padding: 8px;
+  text-align: left;
+}
+
+thead {
+  background-color: #333;
+  color: #e24545;
+}
+
+/* Striped table rows */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Hover effect on table rows */
+tr:hover {
+  background-color: #ddd;
+}
+
+ul {
+ text-align: center;
+}
